@@ -1,4 +1,4 @@
-#ติดตั้ง Queuemetrics กับ Issable Asterisk 18
+# ติดตั้ง Queuemetrics กับ Issable Asterisk 18
 
 ```
 wget https://yum.loway.ch/loway.repo -O /etc/yum.repos.d/loway.repo
