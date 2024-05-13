@@ -1,6 +1,6 @@
 # qm
 # Hello
 ## Hi
-* Apple
-* Banana
+1 Apple
+  1 Banana
 * Orange
