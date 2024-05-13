@@ -33,7 +33,7 @@ systemctl restart  uniloader
 systemctl restart  unitracker
 ```
 
-Install Queuemtrics dialplan 
+Install Queuemetrics dialplan 
 ```
 cp /usr/local/uniloader/extensions/extensions_queuemetrics.conf /etc/asterisk/.
 ```
