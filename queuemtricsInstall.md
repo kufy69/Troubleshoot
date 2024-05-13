@@ -1,5 +1,5 @@
 # ติดตั้ง Queuemetrics กับ Issable Asterisk 18
-
+install Queuemetrics with Espresso
 ```
 wget https://yum.loway.ch/loway.repo -O /etc/yum.repos.d/loway.repo
 yum install queuemetrics-espresso
