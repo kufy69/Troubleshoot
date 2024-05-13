@@ -32,6 +32,16 @@ Restart Service
 systemctl restart  uniloader
 systemctl restart  unitracker
 ```
-จากนั้น login เข้า Queuemetrics ไปที่ Edit system parameters เพื่อลบ Tag HTML Alert Error Espresso ``Ctrl+F`` ค้นหา Espresso ลบ Tag HTML ออก
 
-#=======END=======
+Install Queuemtrics dialplan 
+```
+cp /usr/local/uniloader/extensions/extensions_queuemetrics.conf /etc/asterisk/.
+```
+และ include ``#include extensions_queuemetrics.conf`` ใน ``/etc/asterisk/extensions_custom.conf`` จากนั้น Save และ Reload dialplan
+```
+asterisk -rx "dialplan reload"
+```
+
+จากนั้น login เข้า Queuemetrics ไปที่ Edit system parameters เพื่อลบ Tag HTML  Error Espresso ออก โดย ``Ctrl+F`` ค้นหา Espresso ลบ Tag HTML ออก
+
+# =======END=======
