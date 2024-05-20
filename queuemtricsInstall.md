@@ -5,7 +5,7 @@ wget https://yum.loway.ch/loway.repo -O /etc/yum.repos.d/loway.repo
 yum install queuemetrics-espresso
 ```
 
-แก้ไขไฟล์ Config uniloader ใน ``/etc/sysconfig/`` ให้ชี้ On-premise database
+แก้ไขไฟล์ Config uniloader ใน ``/etc/sysconfig/uniloader`` ให้ชี้ On-premise database
 ```
 # QueueMetrics-Live or QueueMetrics via HTTP
 # make sure that user "webqloader" is enabled and has the correct
@@ -23,7 +23,7 @@ PASS=javadude
 TOKEN=P001
 ```
 
-แก้ไข AMISECRET ในไฟล์ Config unitracker ใน ``/etc/sysconfig/`` **สามารดู AMISECRET ที่ ``/etc/asterisk/manager.conf``
+แก้ไข AMISECRET ในไฟล์ Config unitracker ใน ``/etc/sysconfig/unitracker`` **สามารดู AMISECRET ที่ ``/etc/asterisk/manager.conf``
 ```
 AMISECRET=แก้ตรงนี้
 ```
