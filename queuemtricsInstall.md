@@ -23,7 +23,7 @@ PASS=javadude
 TOKEN=P001
 ```
 
-แก้ไข AMISECRET ในไฟล์ Config unitracker ใน ``/etc/sysconfig/unitracker`` **สามารดู AMISECRET ที่ ``/etc/asterisk/manager.conf``
+แก้ไข AMISECRET ในไฟล์ Config unitracker ใน ``/etc/sysconfig/unitracker`` **ดู AMISECRET ที่ ``/etc/asterisk/manager.conf``
 ```
 AMISECRET=แก้ตรงนี้
 ```
