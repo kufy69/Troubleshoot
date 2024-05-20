@@ -18,6 +18,7 @@ yum install queuemetrics-espresso
 # On-premise QueueMetrics instance, connection via database (deprecated)
 URI="mysql:tcp(127.0.0.1:3306)/queuemetrics?allowOldPasswords=1"
 LOGIN=queuemetrics
+#UPASSWD=javadude
 PASS=javadude
 TOKEN=P001
 ```
